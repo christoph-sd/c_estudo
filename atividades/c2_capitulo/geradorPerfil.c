@@ -25,7 +25,7 @@ int main() {
     
     strcat(nome, sobrenome);
     printf("========= PERFIL =========\n");
-    printf("Nome: %s\n", nome); 
+    printf("Nome: %s\n", nome, sobrenome); 
     printf("Idade: %i anos\n", idade);
     printf("Cidade: %s\n", cidade);
     printf("Profissão: %s\n", profissao);

@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Nome: Christoph Diehl \n");
+    printf("Nome: Christoph \n");
     printf("Curso: Análise e Desenvolvimento de Sistemas \n");
     printf("Hobby: Jogar videogame \n");
     printf("%s", "\U0001f600" "\n");
