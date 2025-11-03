@@ -1,0 +1,109 @@
+Lista de Exercícios - Linguagem de Programação 1
+
+Capítulo 4: Estruturas Condicionais
+
+1. Escreva um programa em C para verificar se um número é negativo,
+positivo ou zero.
+Saída:
+
+=== VERIFICADOR DE NÚMERO ===
+Digite um número: -5.5
+Resultado:
+Número digitado: -5.50
+O número é NEGATIVO
+
+2. Escreva um programa em C para verificar se um número é divisível
+por 5 e 11 ou não.
+Saída:
+
+=== VERIFICADOR DE DIVISIBILIDADE ===
+Digite um número inteiro: 55
+Análise do número 55:
+✓ Divisível por 5 e 11
+Cálculos:
+55 ÷ 5 = 11 com resto 0
+55 ÷ 11 = 5 com resto 0
+
+3. Escreva um programa em C para verificar se um caractere é alfabeto
+ou não.
+Saída:
+
+=== VERIFICADOR DE ALFABETO ===
+Digite um caractere: A
+Análise do caractere 'A':
+✓ É uma letra do alfabeto
+✓ É uma letra MAIÚSCULA
+
+4. Escreva um programa em C para receber qualquer caractere e
+verificar se é alfabeto, dígito ou caractere especial.
+Saída:
+
+=== CLASSIFICADOR DE CARACTERES ===
+Digite um caractere: 7
+Tipo: DÍGITO NUMÉRICO
+Valor: 7
+
+5. Escreva um programa em C para receber o número de um mês e
+imprimir o número de dias naquele mês.
+Saída:
+
+=== CALENDÁRIO - DIAS NO MÊS ===
+Digite o número do mês (1-12): 2
+Digite o ano: 2024
+Mês: Fevereiro
+Ano bissexto: SIM
+Ano: 2024
+Número de dias: 29
+
+6. Escreva um programa em C que calcule o resultado financeiro de
+uma operação comercial. O programa deve:
+1. Solicitar ao usuário o custo de compra do produto
+2. Solicitar o preço de venda do produto
+3. Calcular e mostrar:
+O lucro (se venda > custo) ou prejuízo (se custo > venda)
+
+O valor absoluto do lucro ou prejuízo
+A margem percentual em relação ao custo
+Uma mensagem indicativa do resultado (lucrativa ou com prejuízo)
+Exemplo de Entrada/Saída:
+
+=== CALCULADORA DE LUCRO/PREJUÍZO ===
+Digite o custo de compra: R$ 100
+Digite o preço de venda: R$ 150
+=== RESULTADO FINANCEIRO ===
+Custo de compra: R$ 100.00
+Preço de venda: R$ 150.00
+--------------------------------
+LUCRO: R$ 50.00
+Margem de lucro: 50.0%
+Operação lucrativa!
+
+7. Escreva um programa em C que calcule o valor da conta de energia
+elétrica baseado em um sistema de tarifação progressiva. O
+programa deve:
+1. Solicitar ao usuário o consumo em unidades (kWh)
+2. Calcular o valor conforme as faixas de consumo:
+Faixa 1: Primeiras 50 unidades → R$ 0,50 por unidade
+Faixa 2: Próximas 100 unidades (51-150) → R$ 0,75 por unidade
+Faixa 3: Próximas 100 unidades (151-250) → R$ 1,20 por unidade
+Faixa 4: Unidades acima de 250 → R$ 1,50 por unidade
+3. Aplicar um adicional de 20% sobre o subtotal
+4. Mostrar um detalhamento completo incluindo:
+Cálculo por faixa de consumo
+Subtotal (antes do adicional)
+Valor do adicional
+Total final a pagar
+Exemplo de Entrada/Saída:
+
+=== CALCULADORA DE CONTA DE ENERGIA ===
+Digite o consumo em unidades: 300
+=== DETALHAMENTO DA CONTA ===
+Consumo: 300 unidades
+Faixa 1 (0-50): 50 × R$ 0.50 = R$ 25.00
+Faixa 2 (51-150): 100 × R$ 0.75 = R$ 75.00
+Faixa 3 (151-250): 100 × R$ 1.20 = R$ 120.00
+Faixa 4 (>250): 50 × R$ 1.50 = R$ 75.00
+Subtotal: R$ 295.00
+Adicional (20%): R$ 59.00
+--------------------------------
+TOTAL A PAGAR: R$ 354.00
