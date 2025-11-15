@@ -6,11 +6,11 @@
     void caracterCondicao(char verificaChar) {
     
     if (isalpha(verificaChar)) {
-        printf("É uma letra. \n");
+        printf("É uma letra.(%c) \n", verificaChar);
     } else if (isdigit(verificaChar)) {
-        printf("É um dígito. \n");
+        printf("É um dígito(%c). \n", verificaChar);
     } else {
-        printf("É um caractere especial\n");
+        printf("É um caractere especial: (%c)\n", verificaChar);
     }
 }
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include <ctype.h> // The <ctype.h> header provides many functions for classifying and modifying characters. devdocs.io
+#include <ctype.h>
 
 int main()
 {
